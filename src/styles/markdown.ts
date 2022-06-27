@@ -98,6 +98,7 @@ const Markdown = styled.article<{ rhythm: typeof typography["rhythm"] }>`
   li > ol,
   li > ul {
     margin-left: ${({ rhythm }) => rhythm(1.25)};
+    margin-top: 0.5rem;
   }
 
   li {
