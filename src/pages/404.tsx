@@ -48,7 +48,6 @@ const NotFound = () => {
         setParticles(prevParticles => [...prevParticles, newParticle])
       }
     }
-
     const render = () => {
       ctx?.clearRect(0, 0, stageWidth, stageHeight)
       for (let i = 0; i < totalParticles; i++) {
@@ -56,6 +55,10 @@ const NotFound = () => {
         if (!item || !ctx) return
         item.animate(ctx, stageWidth, stageHeight)
       }
+
+
+
+
       requestRef.current = requestAnimationFrame(render)
     }
 
