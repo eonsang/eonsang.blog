@@ -26,6 +26,24 @@ alt: "redis"
 - type
 - dump (key)
 - restore [REPLACE] 
+- NX = not exist?
+- XX
+- append
+- incr
+- incrby
+- decr
+- decrby
+- incrbyfloat 
+- decrbyfloat <- 이건 왜 없지????
+- getset
+- mset
+- mget
+- msetnx
+- getrange
+- setex 유효기간 세팅 가능합니다.
+- psetex
+- setrange
+- setlen
 ----
 
 ## 데이터 유형(자료구조
