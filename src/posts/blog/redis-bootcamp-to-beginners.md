@@ -43,7 +43,22 @@ alt: "redis"
 - setex 유효기간 세팅 가능합니다.
 - psetex
 - setrange
-- setlen
+- setle
+
+### list
+- lpush
+- rpush
+- lrange
+- lpushx
+- rpushx
+- lpop
+- rpop
+- ltrim
+- lset
+- lindex
+- linsert
+- llen
+- lrem
 ----
 
 ## 데이터 유형(자료구조
@@ -60,3 +75,4 @@ alt: "redis"
 - h[^e]llo: hallo, hbllo, NOT hello
 - h[a-b]llo: hallo, hbllo, NOT hcllo
 
+## 리스트
